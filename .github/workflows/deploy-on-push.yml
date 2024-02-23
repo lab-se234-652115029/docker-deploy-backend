@@ -37,10 +37,10 @@ jobs:
         name: prepare the docker-compose run
         run: |
               ls -l
-			  cd target
-			  ls -l
-			  cd dependency
-			  ls -l
+              cd target
+              ls -l
+              cd dependency
+              ls -l
       -
         name: Build and push
         uses: docker/build-push-action@v4
