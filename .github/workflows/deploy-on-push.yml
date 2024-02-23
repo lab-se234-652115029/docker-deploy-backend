@@ -41,6 +41,8 @@ jobs:
               ls -l
               cd dependency
               ls -l
+              cd BOOT-INF
+              ls -l
       -
         name: Build and push
         uses: docker/build-push-action@v4
